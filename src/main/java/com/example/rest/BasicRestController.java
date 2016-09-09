@@ -4,7 +4,6 @@ import java.util.Collection;
 
 import com.example.domain.Stuff;
 import com.example.persist.StuffPersistenceService;
-import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author voor
  */
 @RestController
-@Slf4j
 public class BasicRestController {
 
     private final StuffPersistenceService stuffPersistenceService;
